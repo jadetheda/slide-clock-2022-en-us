@@ -3,7 +3,7 @@ var columns = Array.from(document.getElementsByClassName('column'));
 var d = void 0,
 c = void 0;
 var classList = ['visible', 'close', 'far', 'far', 'distant', 'distant'];
-var use24HourClock = true;
+var use24HourClock = false;
 
 function padClock(p, n) {
 	return p + ('0' + n).slice(-2);
